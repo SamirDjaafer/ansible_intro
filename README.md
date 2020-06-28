@@ -5,6 +5,9 @@
 
 1. Install ansible using homebrew. `brew install ansible`
 2. Check if ansible installed correctly using `ansible --version`. You should be returned some ansible meta data. 
+
+### Lets create a Vagrantfile
+
 3. Ok now lets set up a Virtual Machine using Vagrant `Vagrant init ubuntu/xenial64`
 4. Next we are going to add a VM for our Ansible machine called client. Add `config.vm.define "client" do |client|
     client.vm.hostname = "client"
